@@ -11,17 +11,14 @@ int main(){
         cin>>arr[i];
     }
 
-    for(int p=0;p<a-1;p++){
-        for(int q=p+1;q<a;q++){
-            if(arr[q]<arr[p]){
-                int temp=arr[p];
-                arr[p]=arr[q];
-                arr[q]=temp;
-            }
-        }
-    }
-
+    int key;
     for(int i=0;i<a;i++){
-        cout<<arr[i]<<" ";
-    }
+        if(arr[i]==key){
+            cout<<"Key found at "<<i<<" index";
+            break;
+        }
+        else{
+            cout<<"Key not found"<<endl;
+        }
+        }
 }
