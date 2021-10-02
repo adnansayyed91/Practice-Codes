@@ -25,12 +25,12 @@ typedef struct teacher
 } ep;
 
 
-int main(){
+int main() {
     struct student adnan;
-    adnan.rollno=91;
-    adnan.std=14;
-    adnan.bloodgrp='o';
-    adnan.feespaid=30000.5l;
+    adnan.rollno = 12;
+    adnan.std = 2;
+    adnan.bloodgrp = 'A';
+    adnan.feespaid = 45000.5l;
 
     cout<<"The value of student "<<adnan.rollno<<endl;
     cout<<"The value of student "<<adnan.std<<endl;
@@ -38,17 +38,15 @@ int main(){
     cout<<"The value of student "<<adnan.feespaid<<endl;
     
     ep zaki;
-    zaki.teacherid=004;
-    zaki.mobileno=9123456780;
-    zaki.bloodgrp='a';
-    zaki.salary=200000000;
+    zaki.teacherid = 008;
+    zaki.mobileno = 9177456780;
+    zaki.bloodgrp = 'O';
+    zaki.salary = 48755200000;
     
     cout<<"The Value of teacher "<<zaki.teacherid<<endl;
     cout<<"The Value of teacher "<<zaki.mobileno<<endl;
     cout<<"The Value of teacher "<<zaki.bloodgrp<<endl;
     cout<<"The Value of teacher "<<zaki.salary<<endl;
-    
-    
     
     return 0;
 
